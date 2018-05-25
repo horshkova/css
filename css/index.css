@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+html {
+    font-family:'Lobster', serif;
+}
+
+body {
+    width: 600px;
+    margin: auto;
+}
+
+h1, h2 {
+    color: red;
+}
+
+#choosen {
+    color: green;
+}
+
+.selected {
+    color: violet;
+}
+div > p {
+    color: yellow;
+}
+div ~ p {
+    color: blue;
+}
+p[class] {
+    border: 1px solid black;
+}
+p:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+p::before {
+    content: '😱';
+}
